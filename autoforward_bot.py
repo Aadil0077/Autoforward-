@@ -4,9 +4,9 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, MessageHandler, filters
 
 # Replace with your actual bot token and chat IDs.
-TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"  # You got this from BotFather
-SOURCE_CHAT_ID = -123456789  # ID of the chat from which to forward
-TARGET_CHAT_ID = -987654321  # ID of the chat where messages are forwarded
+TOKEN = "7931283896:AAFDT6VhlQ7sn3ZD-HOEcZRNHyQAsQKsYlk"  # You got this from BotFather
+SOURCE_CHAT_ID = -1002330699605  # ID of the chat from which to forward
+TARGET_CHAT_ID = -1002452632321  # ID of the chat where messages are forwarded
 
 DELAY_SECONDS = 10 # Delay in seconds before forwarding
 
